@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "-----------------------------------------------------------------------------"
-curl -s https://raw.githubusercontent.com/artemkovsh/log/main/121.sh | bash
+curl -s https://raw.githubusercontent.com/artemkovsh/Nodes/main/logo.sh | bash
 echo "-----------------------------------------------------------------------------"
 function env {
     if [ ! $validator_name ]; then
