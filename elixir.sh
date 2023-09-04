@@ -1,5 +1,7 @@
 #!/bin/bash
-
+echo "-----------------------------------------------------------------------------"
+curl -s https://raw.githubusercontent.com/artemkovsh/log/main/121.sh | bash
+echo "-----------------------------------------------------------------------------"
 function env {
     if [ ! $validator_name ]; then
         read -p "Введите ваше имя валидатора(придумайте, без спецсимволов - только буквы и цифры): " validator_name
